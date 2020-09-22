@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Pemesanan"></EditText>
+
+    <EditText
+        android:id="@+id/nama_pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:hint="Nama Pemesan"></EditText>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_pemesan"
+        android:hint="Alamat"></EditText>
+
+    <EditText
+        android:id="@+id/telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamat"
+        android:hint="Nomor Telepon"></EditText>
+
+    <Spinner
+        android:id="@+id/list_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telepon"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/times"
+        android:entries="@array/daftar_makanan_minuman"
+        android:padding="15dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/times"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telepon"
+        android:layout_alignParentRight="true"
+        android:entries="@array/kategori"></Spinner>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/times"
+        android:layout_alignParentRight="true"
+        android:text="SIMPAN"></Button>
+</RelativeLayout>

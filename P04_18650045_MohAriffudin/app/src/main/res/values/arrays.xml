@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daftar_makanan_minuman">
+        <item>Pilih</item>
+        <item>Bakso</item>
+        <item>Ayam Goreng</item>
+        <item>Mie Rebus</item>
+        <item>Nasi Padang</item>
+        <item>Ikan Bakar</item>
+        <item>Seblak</item>
+    </string-array>
+    <string-array name="kategori">
+        <item>Pilih</item>
+        <item>Makanan</item>
+        <item>Minuman</item>
+    </string-array>
+</resources>
