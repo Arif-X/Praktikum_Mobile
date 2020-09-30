@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Pendaftaran Pengguna"
+        android:textStyle="bold"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/edit_FName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/heading_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Nama Depan Anda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_LName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_FName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Nama Belakang Anda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_Email"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_LName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Email Anda"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan Kata Sandi Anda"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:layout_below="@id/editPassword"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:layout_below="@id/reg_button"
+        android:text="Sudah Daftar?, Login Disini" />
+
+</RelativeLayout>

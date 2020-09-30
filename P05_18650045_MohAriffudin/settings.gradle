@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "NIM045_Moh-Ariffudin_Kelas-D_SIP"
